@@ -1,0 +1,16 @@
+package com.vic.kafka.app.broker.serde;
+
+import org.apache.kafka.common.serialization.Serializer;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class CustomJsonSerializer<T> implements Serializer<T> {
+
+	private ObjectMapper objectMapper=new ObjectMapper();
+	
+	@Override
+	public byte[] serialize(String topic, T data) {		
+		return objectMapper.writeValueAsBytes(data);
+	}
+
+}

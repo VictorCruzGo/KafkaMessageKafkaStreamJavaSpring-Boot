@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.vic.kafka.app.broker.message&apos; to &apos;kafka-stream/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;kafka-order&apos;&#x0D;&#x0A;- Destination element: &apos;kafka-stream/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;kafka-order/src/main/java/com.vic.kafka.app.broker.message&apos;" description="Copy package" destination="=kafka-stream/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.vic.kafka.app.broker.message" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1592012997399" version="1.0"/>
+</session>

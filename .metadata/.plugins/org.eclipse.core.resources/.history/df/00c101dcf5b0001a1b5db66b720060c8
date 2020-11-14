@@ -1,0 +1,5 @@
+package com.vic.kafka.app.broker.serde;
+
+public class CustomJsonSerializer {
+
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value="Upper"/>
+			<item value="KStreamImpl"/>
+			<item value="web"/>
+			<item value="jpa"/>
+			<item value="h2"/>
+			<item value="dev"/>
+			<item value="context"/>
+			<item value="per"/>
+			<item value="devtools"/>
+			<item value="H2"/>
+			<item value="spring.kafka.bootstrap-servers"/>
+			<item value="creditCardNumber"/>
+			<item value="order"/>
+			<item value="fixedRateProducer"/>
+			<item value="setPrice"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1080"/>
+		<item key="DIALOG_Y_ORIGIN" value="521"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

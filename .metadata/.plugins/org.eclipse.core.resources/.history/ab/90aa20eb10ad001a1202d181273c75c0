@@ -1,0 +1,21 @@
+package com.vic.kafka.app.config;
+
+import java.util.HashMap;
+
+import org.apache.kafka.streams.StreamsConfig;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.kafka.annotation.EnableKafkaStreams;
+import org.springframework.kafka.config.KafkaStreamsConfiguration;
+
+@Configuration
+@EnableKafkaStreams
+public class KafkaStreamConfig {
+	
+	public KafkaStreamsConfiguration kafkaStreamConfig() {
+		var props=new HashMap<String, Object>();
+		
+		props.put(StreamsConfig.APPLICATION_ID_CONFIG , "kafka-stream");
+		props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG , "localhost:9092");
+		
+	}
+}

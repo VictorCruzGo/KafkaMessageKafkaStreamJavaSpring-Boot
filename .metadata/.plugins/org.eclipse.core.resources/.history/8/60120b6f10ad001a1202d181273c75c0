@@ -1,0 +1,5 @@
+package com.vic.kafka.app.config;
+
+public class KafkaStreamConfig {
+
+}
